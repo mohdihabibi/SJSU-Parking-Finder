@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18ECD54CF94E451F8BF72DFE /* Pods_ParkingMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B67547D2EBB458A1245D121 /* Pods_ParkingMap.framework */; };
+		F3385D891DF601CE00A5782E /* SpotsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3385D881DF601CE00A5782E /* SpotsTableViewCell.swift */; };
+		F35CD5EA1E035BE7006974D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F35CD5E91E035BE7006974D7 /* GoogleService-Info.plist */; };
+		F35CD5EF1E035DED006974D7 /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35CD5EE1E035DED006974D7 /* GoogleViewController.swift */; };
+		F3A7FDD91DDA3F8600CE343A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7FDD81DDA3F8600CE343A /* AppDelegate.swift */; };
+		F3A7FDDB1DDA3F8600CE343A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7FDDA1DDA3F8600CE343A /* ViewController.swift */; };
+		F3A7FDDE1DDA3F8600CE343A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A7FDDC1DDA3F8600CE343A /* Main.storyboard */; };
+		F3A7FDE01DDA3F8600CE343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A7FDDF1DDA3F8600CE343A /* Assets.xcassets */; };
+		F3A7FDE31DDA3F8600CE343A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A7FDE11DDA3F8600CE343A /* LaunchScreen.storyboard */; };
+		F3A7FDEB1DDA425600CE343A /* ParkingPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7FDEA1DDA425600CE343A /* ParkingPin.swift */; };
+		F3A7FDED1DDA6A2700CE343A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7FDEC1DDA6A2700CE343A /* InfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4410AE93DD642379A2435DC9 /* Pods-ParkingMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingMap/Pods-ParkingMap.release.xcconfig"; sourceTree = "<group>"; };
+		45F1E11358407CC76675FCB1 /* Pods-ParkingMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingMap/Pods-ParkingMap.debug.xcconfig"; sourceTree = "<group>"; };
+		6B67547D2EBB458A1245D121 /* Pods_ParkingMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3385D881DF601CE00A5782E /* SpotsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotsTableViewCell.swift; sourceTree = "<group>"; };
+		F35CD5E91E035BE7006974D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F35CD5EB1E035D37006974D7 /* ParkingMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParkingMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		F35CD5EE1E035DED006974D7 /* GoogleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
+		F3A7FDD51DDA3F8600CE343A /* ParkingMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A7FDD81DDA3F8600CE343A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3A7FDDA1DDA3F8600CE343A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A7FDDD1DDA3F8600CE343A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3A7FDDF1DDA3F8600CE343A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3A7FDE21DDA3F8600CE343A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3A7FDE41DDA3F8600CE343A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A7FDEA1DDA425600CE343A /* ParkingPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingPin.swift; sourceTree = "<group>"; };
+		F3A7FDEC1DDA6A2700CE343A /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A7FDD21DDA3F8600CE343A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ECD54CF94E451F8BF72DFE /* Pods_ParkingMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5327459B62E16526FA524389 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45F1E11358407CC76675FCB1 /* Pods-ParkingMap.debug.xcconfig */,
+				4410AE93DD642379A2435DC9 /* Pods-ParkingMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FF1792353B78D4BEDFDA5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B67547D2EBB458A1245D121 /* Pods_ParkingMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3A7FDCC1DDA3F8600CE343A = {
+			isa = PBXGroup;
+			children = (
+				F3A7FDD71DDA3F8600CE343A /* ParkingMap */,
+				F3A7FDD61DDA3F8600CE343A /* Products */,
+				5327459B62E16526FA524389 /* Pods */,
+				7FF1792353B78D4BEDFDA5EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A7FDD61DDA3F8600CE343A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A7FDD51DDA3F8600CE343A /* ParkingMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A7FDD71DDA3F8600CE343A /* ParkingMap */ = {
+			isa = PBXGroup;
+			children = (
+				F3A7FDD81DDA3F8600CE343A /* AppDelegate.swift */,
+				F3A7FDDA1DDA3F8600CE343A /* ViewController.swift */,
+				F3A7FDEA1DDA425600CE343A /* ParkingPin.swift */,
+				F3A7FDDC1DDA3F8600CE343A /* Main.storyboard */,
+				F3385D881DF601CE00A5782E /* SpotsTableViewCell.swift */,
+				F35CD5E91E035BE7006974D7 /* GoogleService-Info.plist */,
+				F3A7FDEC1DDA6A2700CE343A /* InfoViewController.swift */,
+				F3A7FDDF1DDA3F8600CE343A /* Assets.xcassets */,
+				F3A7FDE11DDA3F8600CE343A /* LaunchScreen.storyboard */,
+				F3A7FDE41DDA3F8600CE343A /* Info.plist */,
+				F35CD5EB1E035D37006974D7 /* ParkingMap-Bridging-Header.h */,
+				F35CD5EE1E035DED006974D7 /* GoogleViewController.swift */,
+			);
+			path = ParkingMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A7FDD41DDA3F8600CE343A /* ParkingMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A7FDE71DDA3F8600CE343A /* Build configuration list for PBXNativeTarget "ParkingMap" */;
+			buildPhases = (
+				343D4B7C695F456B3E1A2BB8 /* 📦 Check Pods Manifest.lock */,
+				F3A7FDD11DDA3F8600CE343A /* Sources */,
+				F3A7FDD21DDA3F8600CE343A /* Frameworks */,
+				F3A7FDD31DDA3F8600CE343A /* Resources */,
+				3F0C3714AC5ED0ED2EF77854 /* 📦 Embed Pods Frameworks */,
+				60F0789D03BB4A54CDD0AEC5 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingMap;
+			productName = ParkingMap;
+			productReference = F3A7FDD51DDA3F8600CE343A /* ParkingMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A7FDCD1DDA3F8600CE343A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Amir Jabbari";
+				TargetAttributes = {
+					F3A7FDD41DDA3F8600CE343A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YGLVJ4T23M;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3A7FDD01DDA3F8600CE343A /* Build configuration list for PBXProject "ParkingMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A7FDCC1DDA3F8600CE343A;
+			productRefGroup = F3A7FDD61DDA3F8600CE343A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A7FDD41DDA3F8600CE343A /* ParkingMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A7FDD31DDA3F8600CE343A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A7FDE31DDA3F8600CE343A /* LaunchScreen.storyboard in Resources */,
+				F35CD5EA1E035BE7006974D7 /* GoogleService-Info.plist in Resources */,
+				F3A7FDE01DDA3F8600CE343A /* Assets.xcassets in Resources */,
+				F3A7FDDE1DDA3F8600CE343A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		343D4B7C695F456B3E1A2BB8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0C3714AC5ED0ED2EF77854 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkingMap/Pods-ParkingMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F0789D03BB4A54CDD0AEC5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkingMap/Pods-ParkingMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A7FDD11DDA3F8600CE343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A7FDDB1DDA3F8600CE343A /* ViewController.swift in Sources */,
+				F3385D891DF601CE00A5782E /* SpotsTableViewCell.swift in Sources */,
+				F3A7FDD91DDA3F8600CE343A /* AppDelegate.swift in Sources */,
+				F3A7FDED1DDA6A2700CE343A /* InfoViewController.swift in Sources */,
+				F3A7FDEB1DDA425600CE343A /* ParkingPin.swift in Sources */,
+				F35CD5EF1E035DED006974D7 /* GoogleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3A7FDDC1DDA3F8600CE343A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A7FDDD1DDA3F8600CE343A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3A7FDE11DDA3F8600CE343A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A7FDE21DDA3F8600CE343A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3A7FDE51DDA3F8600CE343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3A7FDE61DDA3F8600CE343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A7FDE81DDA3F8600CE343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F1E11358407CC76675FCB1 /* Pods-ParkingMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = YGLVJ4T23M;
+				INFOPLIST_FILE = ParkingMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.parkingmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParkingMap/ParkingMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3A7FDE91DDA3F8600CE343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4410AE93DD642379A2435DC9 /* Pods-ParkingMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = YGLVJ4T23M;
+				INFOPLIST_FILE = ParkingMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.parkingmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParkingMap/ParkingMap-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A7FDD01DDA3F8600CE343A /* Build configuration list for PBXProject "ParkingMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A7FDE51DDA3F8600CE343A /* Debug */,
+				F3A7FDE61DDA3F8600CE343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A7FDE71DDA3F8600CE343A /* Build configuration list for PBXNativeTarget "ParkingMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A7FDE81DDA3F8600CE343A /* Debug */,
+				F3A7FDE91DDA3F8600CE343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A7FDCD1DDA3F8600CE343A /* Project object */;
+}
